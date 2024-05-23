@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: aquamarine;
+}
+nav{
+    height: 10vh;
+    background-color: rgb(5, 5, 81);
+    color: white;
+    text-align: center;
+    line-height: 10vh;
+}
+nav p{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vmin;
+    text-align: center;
+    margin: auto;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.box{
+    width: 165px;
+    height: 165px;
+    margin: 1rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: black;
+}
+.box img{
+    content: width;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.gameScore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+.userScore , .compScore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.score{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.gameOutput{
+    padding: 15px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(1, 1, 58);
+    color: white;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
